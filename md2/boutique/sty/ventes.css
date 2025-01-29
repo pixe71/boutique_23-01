@@ -1,0 +1,152 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px;
+    text-align: center;
+}
+
+.product {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    transition: all .40s;
+}
+
+.product:hover {
+    background-color: #f5f5f5;
+    transform: all .40s;
+    transform: scale(0.9);
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.buttonProduct {
+    display: block;
+    background-color: rgb(76, 104, 196);
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 0px 5px black;
+    padding: 0.5em;
+    margin-top: 10px;
+    margin-left: 245px;
+    
+}
+
+.aButton {
+    color: white;
+    text-decoration: none;
+    transition: all .40s;
+}
+
+.buttonProduct:hover {
+    background-color: rgb(65, 91, 177);
+    transform: all .40s;
+}
+
+.prix{
+  font-weight: bold;
+}
+
+.promotion h5{
+  position: fixed;
+  background-color: #48a148;
+  top: 180px;
+  left: 195px;
+  rotate: -30deg;
+  font-size: 15px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.panier {
+    position: relative;
+    padding-left: 1500px;
+    top: -75px;
+    transform: all .40s;
+}
+
+.panier :hover{
+    transition: all .40s;
+    transform: scale(0.9);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+  }
+
+button{
+    color: white;
+}
+
+.description{
+    font-size: 12px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .avis {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  fieldset,
+  label {
+    margin: 0;
+    padding: 0;
+  }
+
+  .avis__etoiles {
+    border: none;
+    float: left;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .avis__etoiles > input {
+    display: none;
+  }
+
+  .avis__etoiles > label:before {
+    margin: 2px;
+    font-size: 15px;
+    font-family: "FontAwesome";
+    display: inline-block;
+    content: "\f005";
+  }
+
+  .avis__etoiles > .half:before {
+    content: "\f089";
+    position: absolute;
+  }
+
+  .avis__etoiles > label {
+    color: #c9c9c9;
+    float: right;
+  }
+
+  .etoiles{
+    padding-left: 240px;
+  }
+
+  .notes{
+    margin-top: 5px;
+  }
+
