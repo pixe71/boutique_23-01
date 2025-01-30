@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+h2, h4 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #9c9c9c6c;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+p {
+    background-color: #b4b4b43a;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+td {
+    background-color: #9c9c9c6c;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+th:last-child, td:last-child {
+    text-align: right;
+}
+
+tr:last-child {
+    border-bottom: 2px solid #333;
+}
+
+th {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+td {
+    font-weight: bold;
+}
+
+td, th {
+    padding: 10px 15px;
+}
+
+tr.total-row {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+@media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      background-color: white;
+      padding: 20px;
+      nav {
+        display: none;
+      }
+      #telecharger {
+        display: none;
+      }
+      .btn {
+        background-color: #bbb;
+        border-color: #bbb;
+      }
+      .paragraphe {
+        background-color: white;
+        color: #222;
+        page-break-inside: avoid;
+      }
+      #tableau th {
+        background-color: white;
+        color:#222;
+      }
+      #tableau tr:nth-child(even) {
+        background-color: white;
+      }
+      #tableau tr:nth-child(odd) {
+        background-color: white;
+      }
+      .footer-n {
+        display: none;
+      }
+    }
+  }
+
+  #contenu.pdf {
+    background-color: white;
+    #tableau {
+      background-color: white;
+      color:#313131;
+    }
+    .btn {
+      background-color: #bbb;
+      border-color: #bbb;
+    }
+    .paragraphe {
+      background-color: white;
+      color: #222;
+      page-break-inside: avoid;
+    }
+    #tableau th {
+      background-color: white;
+      color:#222;
+    }
+    #tableau tr:nth-child(even) {
+      background-color: white;
+    }
+    #tableau tr:nth-child(odd) {
+      background-color: white;
+    }
+  }
