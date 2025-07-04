@@ -1,5 +1,5 @@
 # 📊BDD Boutique
-
+## Work from my school (it's not in English but in French) if anyone wants to translate or fix the bugs send a message on X or by email: contact@luc-tournie.fr
 ## 📄Introduction
 
 Cette base de données est dédiée à la gestion des produits, des commandes et des utilisateurs pour une boutique en ligne. Ce document présente la structure de la base de données, les relations entre les différents programmes et les bonnes pratiques pour l'exploitation des données.
